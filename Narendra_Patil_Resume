@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Narendra Patil | Program &amp; Delivery Leader</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&amp;family=Newsreader:ital,wght@0,400;0,500;1,400&amp;display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EEF2F4;--surface:#FFFFFF;--ink:#10202E;--muted:#51606D;--line:#C9D3DA;--accent:#0B6E6E;--mark:#E0A100;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0D1620;--surface:#14212E;--ink:#E7EEF3;--muted:#9BAAB6;--line:#2A3B4A;--accent:#4FC3BC;--mark:#F0B429}}
+:root[data-theme="dark"]{--bg:#0D1620;--surface:#14212E;--ink:#E7EEF3;--muted:#9BAAB6;--line:#2A3B4A;--accent:#4FC3BC;--mark:#F0B429}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Newsreader",Georgia,serif;font-size:18px;line-height:1.65}
+h1,h2,h3,.nav,.tag,.meta,.btn{font-family:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif}
+a{color:var(--accent)}
+a:focus-visible{outline:3px solid var(--mark);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+header.top{display:flex;justify-content:space-between;align-items:center;padding:20px 0;gap:16px;flex-wrap:wrap}
+.brand{font-weight:700;font-size:1.1rem;font-family:"Bricolage Grotesque",system-ui,sans-serif}
+.nav{display:flex;gap:20px;font-size:.95rem;flex-wrap:wrap}
+.nav a{color:var(--muted);text-decoration:none}
+.nav a:hover{color:var(--ink)}
+.hero{padding:56px 0 40px}
+.hero h1{font-size:clamp(2.1rem,5.6vw,3.9rem);line-height:1.07;margin:0 0 20px;max-width:16em;letter-spacing:-.02em;font-weight:700}
+.hero p{max-width:36em;color:var(--muted);font-size:1.15rem;margin:0}
+.ruler{display:flex;gap:6px;margin-top:44px;align-items:flex-end;height:44px}
+.ruler span{flex:1;background:var(--line);height:14px;border-radius:1px}
+.ruler span:nth-child(5n){height:28px;background:var(--muted)}
+.ruler span:last-child{height:44px;background:var(--mark)}
+.ruler-cap{display:flex;justify-content:space-between;font-family:"Bricolage Grotesque",system-ui,sans-serif;font-size:.85rem;color:var(--muted);margin-top:8px}
+section{padding:56px 0;border-top:1px solid var(--line)}
+section>.wrap>h2{font-size:1.9rem;margin:0 0 8px;letter-spacing:-.01em}
+.lede{color:var(--muted);margin:0 0 32px;max-width:38em}
+.about{display:grid;grid-template-columns:1.2fr 1fr;gap:40px}
+.facts{margin:0;padding:0;list-style:none;display:grid;gap:14px}
+.facts li{border-left:4px solid var(--accent);padding-left:14px}
+.facts b{display:block;font-family:"Bricolage Grotesque",system-ui,sans-serif;font-size:1rem}
+.facts span{color:var(--muted);font-size:.98rem}
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:24px}
+.card h3{margin:0 0 4px;font-size:1.25rem}
+.meta{font-size:.88rem;color:var(--muted);margin:0 0 12px}
+.card p{margin:0 0 14px;font-size:1rem;color:var(--muted)}
+.stats{display:flex;gap:22px;margin:0 0 14px;font-family:"Bricolage Grotesque",system-ui,sans-serif;font-size:.95rem}
+.stats b{display:block;font-size:1.2rem;color:var(--accent)}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.tag{font-size:.8rem;padding:3px 10px;border:1px solid var(--line);border-radius:99px;color:var(--ink)}
+.card.feature{grid-column:1/-1;border-left:6px solid var(--accent)}
+.creds{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:28px}
+.creds h3{font-size:1.05rem;margin:0 0 10px}
+.creds ul{margin:0;padding-left:18px;color:var(--muted);font-size:1rem}
+.btn{display:inline-block;background:var(--accent);color:var(--bg);padding:12px 22px;border-radius:8px;text-decoration:none;font-weight:700}
+.chain{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px;counter-reset:s}.chain li{counter-increment:s;font-family:"Bricolage Grotesque",system-ui,sans-serif;font-size:.88rem;border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:5px 11px}.chain li::before{content:counter(s) ". ";color:var(--accent);font-weight:700}
+footer{padding:28px 0 40px;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+@media (max-width:720px){.about{grid-template-columns:1fr}body{font-size:17px}.stats{gap:16px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">Narendra Patil</div>
+    <nav class="nav" aria-label="Sections"><a href="#about">Profile</a><a href="#enterprise">Enterprise projects</a><a href="#delivery">How I deliver</a><a href="#ai">AI projects</a><a href="#credentials">Credentials</a><a href="#contact">Contact</a></nav>
+  </header>
+  <div class="hero">
+    <h1>I take enterprise technology from requirements to production.</h1>
+    <p>Technical project, program and delivery manager with 24+ years in IT. I work across business, architecture, engineering, QA and DevOps on APIs, integrations and cloud platforms, for clients in the USA, Europe, APAC, the Middle East and India.</p>
+    <div class="ruler" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="ruler-cap"><span>Years in IT</span><span>24+ and counting</span></div>
+  </div>
+</div>
+
+<section id="about"><div class="wrap">
+  <h2>Profile</h2>
+  <p class="lede">Leading distributed teams from planning to go-live.</p>
+  <div class="about">
+    <div>
+      <p>I deliver enterprise digital platforms, web and mobile applications, cloud-native solutions, microservices and API integrations, using Agile, Waterfall and hybrid models with DevOps practices.</p>
+      <p>I act as a business partner as well as a delivery lead: I align technology with business goals, own P&amp;L and governance, and work with CXO stakeholders. That includes three years onsite at The Global Fund in Geneva, Switzerland.</p>
+      <p>I started in software development and technical leadership, so I can follow architecture, API, database and deployment discussions and turn them into delivery plans. Architects own the design and engineers own the build; I own the delivery.</p>
+    </div>
+    <ul class="facts">
+      <li><b>Roles</b><span>Project, Program and Delivery Management</span></li>
+      <li><b>Domains</b><span>Retail, logistics, supply chain, financial services, e-governance, e-learning, public services, healthcare, HRMS, transport, legal compliance</span></li>
+      <li><b>Strengths</b><span>Delivery governance, RAID, QBR/MBR, P&amp;L and cost optimization, Agile (Scrum, SAFe), cloud transformation, vendor management</span></li>
+      <li><b>Based in</b><span>Maharashtra, India</span></li>
+    </ul>
+  </div>
+</div></section>
+
+<section id="enterprise"><div class="wrap">
+  <h2>Enterprise projects</h2>
+  <p class="lede">Selected programs from my last two decades, newest first.</p>
+  <div class="projects">
+    <article class="card"><h3>NAMA Water Services, Oman</h3><p class="meta">Technical Delivery Manager, Intertec Systems, 2025</p>
+      <div class="stats"><div><b>OMR 4M</b>project value</div><div><b>25</b>team size</div></div>
+      <p>Led production support for customer and branch portals and mobile apps for a public water utility: SLA compliance, major incident and problem management, and service metrics. Coordinated an evidence-based investigation of API slowdowns across application, infrastructure and database teams, using request logs, IIS queue data and database disk latency to find the bottlenecks, including slow stored procedures.</p>
+      <ul class="tags"><li class="tag">ASP.NET</li><li class="tag">React / Next.js</li><li class="tag">Azure</li><li class="tag">AuraQuantic BPM</li><li class="tag">Oracle CC&amp;B</li><li class="tag">Infor EAM</li><li class="tag">IIS</li><li class="tag">SQL Server</li></ul></article>
+    <article class="card"><h3>Lineage Logistics and Wolverine Worldwide, USA</h3><p class="meta">Senior Manager, Product Platform Engineering, Brillio, 2022–2024</p>
+      <div class="stats"><div><b>USD 3.5M</b>project value</div><div><b>25</b>team size</div></div>
+      <p>Delivered onshore–offshore programs across warehouse, order management and omni-channel commerce platforms. Drove agile transformation, owned P&amp;L and ran QBR, MBR and WSR governance. When a reporting dependency slipped, I separated the work that could proceed from the work that could not and moved the dependent functionality to a later sprint to protect the release.</p>
+      <ul class="tags"><li class="tag">C# / .NET</li><li class="tag">React Native</li><li class="tag">Azure DevOps</li><li class="tag">WMS / OMS</li></ul></article>
+    <article class="card"><h3>Land Transport Authority (Fiji), RTA (Papua New Guinea), Corsearch (USA), Digital India</h3><p class="meta">Technical Delivery Manager and BU Head, The Digital Group Infotech, 2014–2022</p>
+      <div class="stats"><div><b>FJD 5M</b>project value</div><div><b>36</b>team size</div></div>
+      <p>Headed delivery for transport management (including driver licensing, vehicle registration and traffic management for Fiji's Land Transport Authority), payroll, HRMS, legal compliance and citizen service portals. Ran PMO-compliant governance and managed P&amp;L and resource planning.</p>
+      <ul class="tags"><li class="tag">.NET</li><li class="tag">React Native</li><li class="tag">Azure</li><li class="tag">AWS</li><li class="tag">SSIS / SSRS</li></ul></article>
+    <article class="card"><h3>The Global Fund (Switzerland), CheckFree (USA), Bosch India</h3><p class="meta">Technical Project Manager, Tech Mahindra, 2007–2014</p>
+      <div class="stats"><div><b>USD 3M</b>project value</div><div><b>25</b>team size</div></div>
+      <p>Delivered grant management, financial transaction and business systems with onsite and offshore teams, including three years onsite in Geneva.</p>
+      <ul class="tags"><li class="tag">C# / VB.NET</li><li class="tag">WPF</li><li class="tag">SQL Server</li><li class="tag">SSIS / SSRS</li></ul></article>
+    <article class="card"><h3>MKCL, Government of Maharashtra, Pune University, PCMC</h3><p class="meta">Technical Team Lead, KNOW-IT, 2003–2007</p>
+      <div class="stats"><div><b>INR 5M</b>project value</div><div><b>10</b>team size</div></div>
+      <p>Built learning management, hospital information, student information and citizen services systems for government and education clients.</p>
+      <ul class="tags"><li class="tag">ASP / VB.NET</li><li class="tag">C#</li><li class="tag">SQL Server</li><li class="tag">RBAC</li></ul></article>
+  </div>
+</div></section>
+
+<section id="delivery"><div class="wrap">
+  <h2>How I deliver</h2>
+  <p class="lede">Technology delivery from requirement to production, working with architects and engineers rather than around them.</p>
+  <div class="projects">
+    <article class="card"><h3>Requirements to production</h3><p>I turn business objectives into epics, stories and acceptance criteria, then plan development, integration testing, non-functional requirements, UAT and release as one schedule. Each requirement is traceable through build, test and business acceptance.</p></article>
+    <article class="card"><h3>APIs and integrations</h3><p>I keep an integration dependency matrix: provider, consumer, contract status, target date, environment and test owner. API contracts are agreed early so front ends can work against mocks, and nothing is called complete until the real services are tested end to end.</p></article>
+    <article class="card"><h3>Dependencies and scope</h3><p>Every cross-team dependency has an owner and a required-by date. Scope changes get an impact assessment first. When a late project is asked to add modules, I protect the critical phase and move the rest to a later one.</p></article>
+    <article class="card"><h3>Partnering with architecture</h3><p>I understand each design well enough to judge its delivery impact. For choices such as Azure or AWS, I help weigh timeline, cost, security, scalability and operating effort, then reflect the decision in the plan.</p></article>
+    <article class="card"><h3>Release and quality control</h3><p>Releases follow agreed SIT and UAT exit criteria. A critical defect in security or transaction correctness blocks release unless an authorized owner accepts the risk, and I do not bypass pipeline or security gates to hold a date.</p></article>
+    <article class="card"><h3>Regulated, financial systems</h3><p>Performance, availability, security, resilience, data integrity, observability, auditability and recoverability become measurable acceptance criteria early, and are tested before production. Delivery tooling includes Azure DevOps CI/CD.</p></article>
+  </div>
+  <h3 style="margin:36px 0 12px">My production release sequence</h3>
+  <ol class="chain"><li>Scope</li><li>SIT</li><li>Defect review</li><li>UAT</li><li>Security and environment readiness</li><li>Deployment runbook</li><li>Rollback plan</li><li>Release approval</li><li>Deployment</li><li>Smoke testing</li><li>Business validation</li><li>Monitoring</li><li>Hypercare</li></ol>
+</div></section>
+
+<section id="ai"><div class="wrap">
+  <h2>AI projects</h2>
+  <p class="lede">Generative AI applied to delivery operations.</p>
+  <div class="projects">
+    <article class="card feature"><h3>AI incident triage over WhatsApp</h3><p class="meta">Led at Intertec Systems for NAMA Water Services, 2025</p>
+      <p>A WhatsApp-based solution using the WhatsApp Business API and generative AI that classifies, prioritizes and routes production incidents to the right support team. It improved response times and operational efficiency.</p>
+      <ul class="tags"><li class="tag">Generative AI</li><li class="tag">WhatsApp Business API</li><li class="tag">Incident management</li></ul></article>
+  </div>
+  <p class="lede" style="margin-top:28px">AI skills: LLMs, prompt engineering, RAG, AI agents, Azure OpenAI, Microsoft Foundry, AI governance, Responsible AI and AI security.</p>
+</div></section>
+
+<section id="credentials"><div class="wrap">
+  <h2>Credentials</h2>
+  <p class="lede">&nbsp;</p>
+  <div class="creds">
+    <div><h3>Certifications</h3><ul><li>PMI PMP</li><li>PMI ACP (Agile Certified Practitioner)</li><li>PMI GenAI Overview for PM</li><li>PMI Data Landscape of GenAI for PM</li><li>SAFe PO/PM</li><li>Microsoft Azure Solutions Architect</li><li>AWS Solutions Architect Associate</li><li>Microsoft AI-900 Azure AI Fundamentals</li></ul></div>
+    <div><h3>Education</h3><ul><li>MBA</li><li>M.Tech</li><li>B.Tech</li><li>PG Diploma in Advanced Computing (C-DAC)</li></ul></div>
+    <div><h3>Technical skills</h3><ul><li>C#, VB.NET, Java, Python</li><li>ASP.NET, Web API, ReactJS</li><li>SQL Server, Oracle</li><li>Azure, AWS, Azure DevOps</li></ul></div>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <h2>Contact</h2>
+  <p class="lede">Open to program and delivery leadership roles and to conversations about enterprise AI.</p>
+  <a class="btn" href="mailto:Narendra.Patil.Resume@Gmail.com">Email Narendra</a>
+  <p style="margin-top:18px">LinkedIn: <a href="https://www.linkedin.com/in/narendra-patil-618885">linkedin.com/in/narendra-patil-618885</a></p>
+</div></section>
+
+<footer><div class="wrap">© 2026 Narendra Patil. Maharashtra, India.</div></footer>
+</body>
+</html>
